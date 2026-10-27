@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#160a0c"/>
+      <stop offset="100%" stop-color="#0b0607"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect x="220" y="120" width="160" height="120" rx="10" fill="none" stroke="#e5363f" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="262" cy="152" r="11" fill="#e5363f"/>
+  <path d="M232 228 L282 176 L318 214 L342 192 L372 228 Z" fill="#e5363f" fill-opacity=".5"/>
+  <text x="300" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="3" fill="#ff8b90" text-anchor="middle">EVENT PHOTO</text>
+  <text x="300" y="318" font-family="Arial, sans-serif" font-size="13" fill="#8d7a7a" text-anchor="middle">assets/events/event-N-photo-M.jpg</text>
+</svg>

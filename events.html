@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumit Raghuwanshi — Events</title>
+  <meta name="description" content="Workshops, hackathons and events attended by Sumit Raghuwanshi — with photos and videos." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23e5363f'/><stop offset='100%' stop-color='%236d0a11'/></linearGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>S</text></svg>" />
+</head>
+<body>
+  <!-- ============================
+       ⭐ HOW TO EDIT THIS PAGE ⭐
+       1. EVENT PHOTOS: put your pictures in  assets/events/
+          Example for the first event: event-1-photo-1.jpg, event-1-photo-2.jpg …
+          You can add as many photos as you like — just copy an <img> line.
+       2. EVENT VIDEOS — two options:
+          a) FILE: save your video as  assets/events/event-1-video.mp4  (nothing to edit)
+          b) YOUTUBE: replace a <video> block with your embed, like:
+             <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+       3. NEW EVENT: copy one whole <article class="event-card"> block and edit it.
+       ============================ -->
+
+  <!-- Color-changing animated background -->
+  <div class="bg-aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-overlay"></span>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">SR<span class="dot">.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="index.html#about" class="nav-link">About</a></li>
+      <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+      <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+      <li><a href="index.html#journey" class="nav-link">Journey</a></li>
+      <li><a href="index.html#certifications" class="nav-link">Certificates</a></li>
+      <li><a href="events.html" class="nav-link active">Events</a></li>
+      <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ EVENTS ============ -->
+  <section class="section events-page" id="events">
+    <div class="container">
+      <div class="section-head reveal" style="margin-top:96px;">
+        <span class="section-tag">Events</span>
+        <h2 class="section-title gradient-text">Workshops, Hackathons &amp; More</h2>
+        <p style="max-width:640px;margin:14px auto 0;font-size:.95rem;">
+          Hackathons, workshops and founder events — where I test ideas, meet operators and
+          build in public. Each event has a photo gallery and video highlights.
+        </p>
+      </div>
+
+      <!-- ==================== EVENT 1 ==================== -->
+      <article class="event-card glass-card reveal">
+        <div class="event-head">
+          <div>
+            <!-- ✏️ EDIT: event title and organiser/date -->
+            <h3>Agentic AI Workshop</h3>
+            <p class="event-when">SIRT, Bhopal · May 2026</p>
+            <p>Built and analyzed AI agents using <strong>LangChain</strong> and <strong>LLMs</strong> — chaining models into tools that plan, remember and act. Hands-on agent design, prompting strategies and agent evaluation.</p>
+          </div>
+          <span class="event-badge">🤖 Workshop</span>
+        </div>
+
+        <!-- PHOTOS: add/remove as many <img> lines as you like (assets/events/event-1-photo-N.jpg) -->
+        <div class="event-gallery">
+          <img src="assets/events/event-1-photo-1.jpg" alt="Agentic AI Workshop photo 1"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-1-photo-2.jpg" alt="Agentic AI Workshop photo 2"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-1-photo-3.jpg" alt="Agentic AI Workshop photo 3"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+        </div>
+
+        <!-- VIDEO: save your real video as assets/events/event-1-video.mp4, or swap this block for a YouTube iframe -->
+        <div class="event-video-wrap">
+          <video controls preload="metadata" poster="assets/events/event-1-photo-1.jpg"
+                 onerror="this.closest('.event-video-wrap').classList.add('video-missing');">
+            <source src="assets/events/event-1-video.mp4" type="video/mp4"
+                    onerror="this.closest('.event-video-wrap').classList.add('video-missing');" />
+          </video>
+          <div class="event-video-fallback">
+            🎬 <strong>Video slot</strong> — save your clip as
+            <code>assets/events/event-1-video.mp4</code> (or paste a YouTube embed here).
+          </div>
+        </div>
+      </article>
+
+      <!-- ==================== EVENT 2 ==================== -->
+      <article class="event-card glass-card reveal delay-1">
+        <div class="event-head">
+          <div>
+            <h3>EDU Blockchain Build Station Hackathon</h3>
+            <p class="event-when">Geeks of Gurukul · Dec 2024</p>
+            <p>Rapid-prototyping hackathon on <strong>blockchain &amp; Web3</strong> — building under
+            time pressure, pitching, and shipping a working demo with a team.</p>
+          </div>
+          <span class="event-badge">⛓️ Hackathon</span>
+        </div>
+
+        <div class="event-gallery">
+          <img src="assets/events/event-2-photo-1.jpg" alt="Blockchain hackathon photo 1"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-2-photo-2.jpg" alt="Blockchain hackathon photo 2"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-2-photo-3.jpg" alt="Blockchain hackathon photo 3"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+        </div>
+
+        <div class="event-video-wrap">
+          <video controls preload="metadata" poster="assets/events/event-2-photo-1.jpg"
+                 onerror="this.closest('.event-video-wrap').classList.add('video-missing');">
+            <source src="assets/events/event-2-video.mp4" type="video/mp4"
+                    onerror="this.closest('.event-video-wrap').classList.add('video-missing');" />
+          </video>
+          <div class="event-video-fallback">
+            🎬 <strong>Video slot</strong> — save your clip as
+            <code>assets/events/event-2-video.mp4</code> (or paste a YouTube embed here).
+          </div>
+        </div>
+      </article>
+
+      <!-- ==================== EVENT 3 ==================== -->
+      <article class="event-card glass-card reveal delay-2">
+        <div class="event-head">
+          <div>
+            <h3>Hack &amp; Make 2026</h3>
+            <p class="event-when">Madhya Pradesh's Flagship Innovation Sprint · 2026</p>
+            <p>Participated in <strong>Hack &amp; Make 2026</strong>, MP's flagship innovation sprint —
+            an inspiring convergence of ideas, execution and leadership.
+            Interacted with <strong>Abhinav Dubey</strong> (Founder, Chai Sutta Bar) and
+            <strong>Karan Khurana</strong> (MD, SAGE Group), and attended
+            <strong>Aman Gupta's</strong> (Co-founder, boAt) keynote on brand-building and
+            customer obsession. Worked with my startup team on real-world problem solving.
+            <br><a href="https://www.linkedin.com/posts/sumit-raghuwanshi-0992b230a_hackandmake2026-startupindia-innovationecosystem-ugcPost-7416356989519351808-iptc/" target="_blank" rel="noopener">Post 1 ↗</a> ·
+            <a href="https://www.linkedin.com/posts/sumit-raghuwanshi-0992b230a_keepbuilding-learningbydoing-share-7446977803649998849-FqwV/" target="_blank" rel="noopener">Post 2 ↗</a></p>
+          </div>
+          <span class="event-badge">🚀 Innovation Sprint</span>
+        </div>
+
+        <div class="event-gallery">
+          <img src="assets/events/event-3-photo-1.jpg" alt="Hack and Make 2026 photo 1"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-3-photo-2.jpg" alt="Hack and Make 2026 photo 2"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+          <img src="assets/events/event-3-photo-3.jpg" alt="Hack and Make 2026 photo 3"
+               onerror="this.onerror=null;this.src='assets/events/photo-placeholder.svg';" />
+        </div>
+
+        <div class="event-video-wrap">
+          <video controls preload="metadata" poster="assets/events/event-3-photo-1.jpg"
+                 onerror="this.closest('.event-video-wrap').classList.add('video-missing');">
+            <source src="assets/events/event-3-video.mp4" type="video/mp4"
+                    onerror="this.closest('.event-video-wrap').classList.add('video-missing');" />
+          </video>
+          <div class="event-video-fallback">
+            🎬 <strong>Video slot</strong> — save your clip as
+            <code>assets/events/event-3-video.mp4</code> (or paste a YouTube embed here).
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>Sumit Raghuwanshi</strong> — Founder · Software Developer · AI Engineer</p>
+      <a href="index.html" class="to-top">↑ Back to home</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

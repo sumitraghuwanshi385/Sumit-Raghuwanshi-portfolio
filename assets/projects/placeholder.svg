@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#160a0c"/>
+      <stop offset="60%" stop-color="#1b0a0c"/>
+      <stop offset="100%" stop-color="#0b0607"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e5363f" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#e5363f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  <rect width="800" height="400" fill="url(#glow)"/>
+  <g stroke="#e5363f" stroke-width="4" fill="none" opacity="0.85" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 220 l35 -35 -35 -35"/>
+    <path d="M420 220 l-35 -35 35 -35"/>
+    <line x1="382" y1="240" x2="338" y2="240"/>
+  </g>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="20" font-weight="bold" letter-spacing="4" fill="#ff8b90" text-anchor="middle">PROJECT PREVIEW</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="14" fill="#8d7a7a" text-anchor="middle">assets/projects/project-N.jpg</text>
+</svg>

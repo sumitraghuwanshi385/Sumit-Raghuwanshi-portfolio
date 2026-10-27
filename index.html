@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumit Raghuwanshi — Founder, Software Developer &amp; AI Engineer</title>
+  <meta name="description" content="Sumit Raghuwanshi — founder of Startives and Apives, full-stack software developer and AI engineer from Bhopal, India. B.Tech AIML at SIRT." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&family=Anton&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23e5363f'/><stop offset='100%' stop-color='%236d0a11'/></linearGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>S</text></svg>" />
+</head>
+<body>
+  <!-- ============================
+       ⭐ HOW TO EDIT THIS SITE ⭐
+       1. YOUR PHOTO: assets/photo-cutout.png (background removed) is used by the
+          hero. Replace it with another cut-out, or point the src at assets/photo.jpg
+       2. PROJECT IMAGES: replace files in  assets/projects/
+       3. CERTIFICATE IMAGES: replace files in  assets/certificates/
+       4. EVENT PHOTOS & VIDEOS: see the Events page (events.html) —
+          photos go in assets/events/, video instructions on that page.
+       5. TEXT CONTENT: search for "✏️ EDIT:" comments in this file.
+       ============================ -->
+
+  <!-- Color-changing animated background -->
+  <div class="bg-aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+    <span class="grid-overlay"></span>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">SR<span class="dot">.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="index.html#about" class="nav-link">About</a></li>
+      <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+      <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+      <li><a href="index.html#journey" class="nav-link">Journey</a></li>
+      <li><a href="index.html#certifications" class="nav-link">Certificates</a></li>
+      <li><a href="events.html" class="nav-link">Events</a></li>
+      <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ HERO (Editorial · Dark Red) ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-noise" aria-hidden="true"></div>
+    <div class="hero-redglow" aria-hidden="true"></div>
+
+    <div class="hero-top">
+      <div class="hero-top-left">
+        <span>Founder — Startives · Apives</span>
+        <span>Software &amp; AI Developer</span>
+      </div>
+      <div class="hero-top-right"><i></i>Available for Work</div>
+    </div>
+
+    <div class="hero-stage">
+      <div class="hero-word" aria-hidden="true">PORTFOLIO</div>
+
+      <!-- ⭐ YOUR PHOTO — background already cut out (assets/photo-cutout.png).
+           To swap it, replace that file, or change the src below to assets/photo.jpg ⭐ -->
+      <div class="hero-3d-wrap" id="hero3d">
+        <div class="hero-photo3d" id="heroPhoto3d">
+          <img id="profilePhoto" src="assets/photo-cutout.png" alt="Sumit Raghuwanshi"
+               onerror="this.onerror=null;this.src='assets/photo.jpg';" />
+        </div>
+      </div>
+
+      <div class="hero-left">
+        <p class="hero-script">Hello, I'm</p>
+        <h1 class="hero-name3d">Sumit<span>Raghuwanshi</span></h1>
+        <p class="hero-role-line">Founder<span class="dot">✦</span>Software Developer<span class="dot">✦</span>AI Developer</p>
+        <p class="hero-typed"><span class="arrow">→</span><span id="typewriter"></span><span class="type-caret">|</span></p>
+        <p class="hero-bio">Founder of Startives &amp; Apives — and the developer behind them.
+          I ship full-stack products and built an autonomous AI voice assistant with 43+ capabilities.</p>
+        <div class="hero-actions">
+          <a href="assets/resume.pdf" class="hero-resume" download>
+            RESUME
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+          </a>
+          <a href="#projects" class="hero-work">View Work <span>↗</span></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://startives.com" target="_blank" rel="noopener" aria-label="Startives" title="Startives — startup collaboration platform">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </a>
+          <a href="https://apives.com" target="_blank" rel="noopener" aria-label="Apives" title="Apives — API discovery platform">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sumit-raghuwanshi-0992b230a" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45z"/></svg>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a10.9 10.9 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.26 5.69.41.36.78 1.06.78 2.14v3.17c0 .3.21.67.8.55A11.5 11.5 0 0 0 23.5 12A11.5 11.5 0 0 0 12 .5z"/></svg>
+          </a>
+          <a href="mailto:sumitraghuwanshi385@gmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <div class="hero-note">
+          <span class="hero-note-mark">✦</span>
+          Turning ideas into<br>intelligent products
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><b>2</b><span>Products Shipped</span></div>
+          <div class="hero-stat"><b>2000<em>+</em></b><span>Users Reached</span></div>
+          <div class="hero-stat"><b>4</b><span>Certifications</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="hero-foot">
+      <span class="hero-foot-badge"><i></i>Open to founder collaborations · software &amp; AI roles</span>
+      <span class="hero-foot-scroll">Scroll <em>↓</em></span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">About</span>
+        <h2 class="section-title gradient-text">Founder. Developer. AI Engineer.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text glass-card reveal">
+          <p>
+            I'm <strong>Sumit Raghuwanshi</strong> — a founder who still writes the code. In three
+            months I took two products from an idea to live platforms: <strong>Startives</strong>,
+            where founders validate ideas and find co-founders, and <strong>Apives</strong>, an API
+            discovery SaaS that now lists 200+ APIs and has pulled in 2,000+ visitors.
+          </p>
+          <p>
+            As a <strong>software developer</strong> I work across the stack — REST APIs, SaaS
+            architecture, real-time feeds, dashboards and integrations — and I keep my fundamentals
+            sharp with <strong>Java and DSA</strong>. As an <strong>AI developer</strong> I build with
+            LLMs, LangChain and agentic patterns: <strong>Z.O.Y.A.</strong>, my self-learning voice
+            assistant with 43+ capabilities, is the clearest proof.
+          </p>
+          <p>
+            I'm in my third year of B.Tech in <strong>Artificial Intelligence &amp; Machine
+            Learning</strong> at SIRT, Bhopal (CGPA 7.13/10), interning in <strong>drone R&amp;D</strong>
+            — sensors, navigation and autonomy. I'm open to founder collaborations and to
+            software / AI engineering roles where I can own the build end to end.
+          </p>
+        </div>
+        <div class="about-facts">
+          <div class="fact glass-card reveal delay-1"><span class="fact-num" data-count="2" data-suffix="">0</span><span class="fact-label">Products Founded</span></div>
+          <div class="fact glass-card reveal delay-2"><span class="fact-num" data-count="2000" data-suffix="+">0</span><span class="fact-label">Visitors Reached</span></div>
+          <div class="fact glass-card reveal delay-3"><span class="fact-num" data-count="200" data-suffix="+">0</span><span class="fact-label">APIs Listed</span></div>
+          <div class="fact glass-card reveal delay-4"><span class="fact-num" data-count="4" data-suffix="">0</span><span class="fact-label">Certifications</span></div>
+        </div>
+      </div>
+
+      <!-- The three hats — founder / software / AI -->
+      <div class="roles-grid">
+        <article class="role-card glass-card reveal delay-1">
+          <span class="role-num">01</span>
+          <h3>Founder<span>Entrepreneur</span></h3>
+          <p>Shipped two products from zero — Startives and Apives. Owned the idea, the build and the launch: 2,000+ visitors, 200+ APIs listed, grown organically.</p>
+        </article>
+        <article class="role-card glass-card reveal delay-2">
+          <span class="role-num">02</span>
+          <h3>Software Developer<span>Full-Stack Engineer</span></h3>
+          <p>End-to-end product engineering: REST APIs, SaaS architecture, real-time feeds, dashboards and integrations — with Java and DSA for the fundamentals.</p>
+        </article>
+        <article class="role-card glass-card reveal delay-3">
+          <span class="role-num">03</span>
+          <h3>AI Developer<span>ML · GenAI · Agents</span></h3>
+          <p>LLMs, LangChain, agentic AI, computer vision and speech. Built Z.O.Y.A., an autonomous voice assistant with 43+ real-world capabilities.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title gradient-text">My Toolkit</h2>
+      </div>
+      <!-- ✏️ EDIT: skill names + levels (0-100) -->
+      <div class="skills-grid">
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>AI / ML — ML · Generative AI · NLP</span><span class="skill-pct" data-pct="88">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:88%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>Full-Stack Web Development</span><span class="skill-pct" data-pct="85">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:85%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>LLMs · LangChain · Agentic AI</span><span class="skill-pct" data-pct="82">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:82%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>API Design · SaaS Architecture</span><span class="skill-pct" data-pct="86">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:86%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>Drone Automation · Sensor Integration</span><span class="skill-pct" data-pct="80">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:80%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>Oracle Cloud (OCI) · Power BI · Data Viz</span><span class="skill-pct" data-pct="78">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:78%"></span></div>
+        </div>
+        <div class="skill glass-card reveal">
+          <div class="skill-top"><span>Java · Data Structures &amp; Algorithms</span><span class="skill-pct" data-pct="82">0%</span></div>
+          <div class="skill-bar"><span class="skill-fill" style="--w:82%"></span></div>
+        </div>
+      </div>
+      <div class="chips reveal">
+        <span class="chip">Computer Vision</span><span class="chip">Speech Recognition</span><span class="chip">Embedded Systems</span>
+        <span class="chip">GPS · IMU · Camera</span><span class="chip">Software Testing</span><span class="chip">Agile</span>
+        <span class="chip">Data Visualization</span><span class="chip">Java</span><span class="chip">DSA</span><span class="chip">GitHub</span><span class="chip">English · Hindi</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title gradient-text">Products I've Founded &amp; Built</h2>
+      </div>
+      <!-- ⭐ PROJECT IMAGES: replace assets/projects/project-1.jpg / project-2.jpg ⭐ -->
+      <div class="projects-grid">
+
+        <article class="project-card glass-card reveal" data-tilt>
+          <div class="project-media">
+            <img src="assets/projects/project-1.jpg" alt="Startives platform preview"
+                 onerror="this.onerror=null;this.src='assets/projects/placeholder.svg';" />
+          </div>
+          <div class="project-body">
+            <h3><a href="https://startives.com" target="_blank" rel="noopener">Startives ↗</a></h3>
+            <p class="project-when">Startup Collaboration Platform · Founder &amp; Full-Stack Developer · Jan 2026 – Feb 2026</p>
+            <p>Full-stack platform for founders to validate ideas, find co-founders and collaborate on MVPs — with matchmaking, team building, "Startalks" real-time community feed and a global member network. Reached 200+ visitors within 4 days of launch.</p>
+            <div class="project-tags"><span>Full-Stack</span><span>Community Feed</span><span>Matchmaking</span><span>Agile</span></div>
+            <div class="project-links">
+              <a href="https://startives.com" target="_blank" rel="noopener">Visit Live ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal delay-1" data-tilt>
+          <div class="project-media">
+            <img src="assets/projects/project-2.jpg" alt="Apives platform preview"
+                 onerror="this.onerror=null;this.src='assets/projects/placeholder.svg';" />
+          </div>
+          <div class="project-body">
+            <h3><a href="https://apives.com" target="_blank" rel="noopener">Apives ↗</a></h3>
+            <p class="project-when">API Discovery SaaS · Founder &amp; Full-Stack Developer · Dec 2025 – Jan 2026</p>
+            <p>SaaS platform for API listing, management and discovery on a scalable backend — API submission, categorization, in-platform API testing, quick code integration, developer dashboard and a real-time developer news feed. 200+ APIs listed and 2,000+ unique visitors in 3 months.</p>
+            <div class="project-tags"><span>SaaS</span><span>API Testing</span><span>Scalable Backend</span><span>Dashboard</span></div>
+            <div class="project-links">
+              <a href="https://apives.com" target="_blank" rel="noopener">Visit Live ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal delay-2" data-tilt>
+          <div class="project-media">
+            <img src="assets/projects/project-3.jpg" alt="Z.O.Y.A. AI companion demo"
+                 onerror="this.onerror=null;this.src='assets/projects/placeholder.svg';" />
+          </div>
+          <div class="project-body">
+            <h3><a href="https://www.linkedin.com/posts/sumit-raghuwanshi-0992b230a_ai-python-deepdive-ugcPost-7403768575284457472-_ffZ/" target="_blank" rel="noopener">Z.O.Y.A. — AI Companion ↗</a></h3>
+            <p class="project-when">Self-Learning Voice AI Assistant · AI Developer (Solo) · Dec 2025</p>
+            <p>A fully autonomous, self-learning AI companion inspired by Jarvis — built with <strong>Ollama (Qwen2)</strong>, <strong>Edge-TTS</strong> and a multi-threaded Python architecture. 43+ voice-command capabilities: controls the entire system, sends WhatsApp messages, reads text via camera vision, generates AI art, runs speed tests, and learns new facts with persistent memory. Showcased in a deep-dive demo post with 40+ reactions.</p>
+            <div class="project-tags"><span>Python</span><span>Ollama · Qwen2</span><span>Edge-TTS</span><span>LLM</span><span>Vision</span></div>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/posts/sumit-raghuwanshi-0992b230a_ai-python-deepdive-ugcPost-7403768575284457472-_ffZ/" target="_blank" rel="noopener">View LinkedIn Post ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOURNEY (Education & Experience) ============ -->
+  <section class="section section-alt" id="journey">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Journey</span>
+        <h2 class="section-title gradient-text">Education &amp; Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass-card">
+            <span class="tl-when">Dec 2025 — Present</span>
+            <h3>Founder &amp; Full-Stack Developer</h3>
+            <p class="tl-where">Startives.com · Apives.com</p>
+            <p>Founded, designed and shipped two full-stack products in three months: a startup collaboration platform and an API discovery SaaS. Owned product decisions, engineering and launch — together reaching 2,000+ unique visitors with 200+ APIs listed.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass-card">
+            <span class="tl-when">Sep 2025 — Present</span>
+            <h3>Research &amp; Development Intern</h3>
+            <p class="tl-where">Techno Drones Robotics</p>
+            <p>Developing and testing drone-based solutions for surveillance, agriculture and automation. Integrating sensors (GPS, IMU, camera) to improve drone navigation and flight stability, and collaborating on research across robotics, AI and automation.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass-card">
+            <span class="tl-when">2023 — 2027</span>
+            <h3>B.Tech — Artificial Intelligence &amp; Machine Learning</h3>
+            <p class="tl-where">SIRT, Sagar Group of Institutions, Bhopal · CGPA 7.13/10</p>
+            <p>Core coursework in machine learning, generative AI, computer vision, NLP and embedded systems — plus hands-on work with LangChain, LLMs and agentic AI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Certificates</span>
+        <h2 class="section-title gradient-text">Recognitions</h2>
+      </div>
+      <!-- ⭐ CERTIFICATE IMAGES: replace assets/certificates/cert-1.jpg ... cert-3.jpg ⭐ -->
+      <div class="certs-grid">
+        <div class="cert glass-card reveal">
+          <div class="cert-media">
+            <img src="assets/certificates/cert-1.jpg" alt="Oracle Cloud Infrastructure AI Foundations certificate"
+                 onerror="this.onerror=null;this.src='assets/certificates/placeholder.svg';" />
+          </div>
+          <h3>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</h3>
+          <p>Oracle University</p>
+        </div>
+        <div class="cert glass-card reveal delay-1">
+          <div class="cert-media">
+            <img src="assets/certificates/cert-2.jpg" alt="Power BI certificate"
+                 onerror="this.onerror=null;this.src='assets/certificates/placeholder.svg';" />
+          </div>
+          <h3>Power BI</h3>
+          <p>Simplilearn | SkillUp</p>
+        </div>
+        <div class="cert glass-card reveal delay-2">
+          <div class="cert-media">
+            <img src="assets/certificates/cert-3.jpg" alt="Software Engineering Job Simulation certificate"
+                 onerror="this.onerror=null;this.src='assets/certificates/placeholder.svg';" />
+          </div>
+          <h3>Software Engineering Job Simulation</h3>
+          <p>Accenture (Forage)</p>
+        </div>
+        <div class="cert glass-card reveal delay-3">
+          <div class="cert-media">
+            <img src="assets/certificates/cert-4.jpg" alt="IBM Deep Learning certificate"
+                 onerror="this.onerror=null;this.src='assets/certificates/placeholder.svg';" />
+          </div>
+          <h3><a href="https://www.linkedin.com/posts/sumit-raghuwanshi-0992b230a_deeplearning-machinelearning-ai-share-7401963457283219456-5euk/" target="_blank" rel="noopener" style="color:inherit;">Deep Learning (ML0115EN) ↗</a></h3>
+          <p>Cognitive Class — IBM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVENTS PREVIEW ============ -->
+  <section class="section section-alt" id="events-preview">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Events</span>
+        <h2 class="section-title gradient-text">Workshops &amp; Hackathons</h2>
+      </div>
+      <div class="about-facts" style="grid-template-columns:1fr 1fr;">
+        <div class="contact-row glass-card reveal">
+          <span class="contact-ic">🤖</span>
+          <div><h4>Agentic AI Workshop</h4><a href="events.html">SIRT, Bhopal · May 2026 → See photos &amp; videos</a></div>
+        </div>
+        <div class="contact-row glass-card reveal delay-1">
+          <span class="contact-ic">⛓️</span>
+          <div><h4>EDU Blockchain Build Station Hackathon</h4><a href="events.html">Geeks of Gurukul · Dec 2024 → See photos &amp; videos</a></div>
+        </div>
+        <div class="contact-row glass-card reveal delay-2">
+          <span class="contact-ic">🚀</span>
+          <div><h4>Hack &amp; Make 2026 — Innovation Sprint</h4><a href="events.html">Madhya Pradesh · met boAt, Chai Sutta Bar founders → See photos &amp; videos</a></div>
+        </div>
+      </div>
+      <p style="text-align:center;margin-top:30px;">
+        <a href="events.html" class="btn btn-ghost">Open the Events page 📸</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title gradient-text">Let's Build Something</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-row glass-card">
+            <span class="contact-ic">📧</span>
+            <div><h4>Email</h4><a href="mailto:sumitraghuwanshi385@gmail.com">sumitraghuwanshi385@gmail.com</a></div>
+          </div>
+          <div class="contact-row glass-card">
+            <span class="contact-ic">📱</span>
+            <div><h4>Phone</h4><a href="tel:+919302555908">+91 93025 55908</a></div>
+          </div>
+          <div class="contact-row glass-card">
+            <span class="contact-ic">📍</span>
+            <div><h4>Location</h4><a href="#">Bhopal, Madhya Pradesh, India</a></div>
+          </div>
+          <div class="contact-row glass-card">
+            <span class="contact-ic">🔗</span>
+            <div><h4>LinkedIn</h4><a href="https://www.linkedin.com/in/sumit-raghuwanshi-0992b230a" target="_blank" rel="noopener">linkedin.com/in/sumit-raghuwanshi-0992b230a</a></div>
+          </div>
+          <div class="contact-row glass-card">
+            <span class="contact-ic">🌐</span>
+            <div><h4>My Platforms</h4><a href="https://startives.com" target="_blank" rel="noopener">startives.com</a> · <a href="https://apives.com" target="_blank" rel="noopener">apives.com</a></div>
+          </div>
+        </div>
+        <form class="contact-form glass-card reveal delay-2" id="contactForm">
+          <!-- ✏️ EDIT: for real email delivery, connect a form service like Formspree (see script.js note) -->
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <input type="text" name="subject" placeholder="Subject" />
+          <textarea name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+          <button type="submit" class="btn btn-primary btn-full">Send Message ✨</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 <strong>Sumit Raghuwanshi</strong> — Founder · Software Developer · AI Engineer</p>
+      <a href="#hero" class="to-top" aria-label="Back to top">↑ Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

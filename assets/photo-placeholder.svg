@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2fb7"/>
+      <stop offset="50%" stop-color="#7b2fff"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="150" r="62" fill="#ffffff" opacity="0.9"/>
+  <path d="M80 400 C80 290 320 290 320 400 Z" fill="#ffffff" opacity="0.9"/>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">YOUR PHOTO</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">assets/photo.jpg</text>
+</svg>
